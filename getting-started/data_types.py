@@ -8,7 +8,7 @@ Viele Datentypen, die wir aus C# kennen, werden wir hier allerdings "vermissen".
   - float ==> float() = 42.420
   - complex numbers ==> complex() = 8j
 * Text
-  - string ==> str() = "hello" = 'hello'
+  - string ==> str() = "hello" = 'hello' = 'a'
 * Logical
   - boolean ==> bool = True | False
 * Collections

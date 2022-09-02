@@ -4,6 +4,9 @@ def sneaking_snake_case():
 
 # This is a single-line comment //"Comment" in C#
 
+"""
+This is also a comment
+"""
 
 '''
 This is a
