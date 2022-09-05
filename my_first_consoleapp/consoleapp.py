@@ -1,5 +1,6 @@
 import requests
 import sys
+import json
 def main():
   # res = requests.get('https://pokeapi.co/api/v2/pokemon/ditto')
   # print(res.text)
@@ -9,7 +10,7 @@ def main():
   elif len(sys.argv) == 2:
     url_to_open = sys.argv[1]
     res = requests.get(url_to_open)
-    print(res.text)
+    print(json.dumps(res.json(), indent=2))
     
   
 
