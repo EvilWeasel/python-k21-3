@@ -1,9 +1,9 @@
 # Python Modules #
-# import re
-# from webbrowser import open
-# #from datetime import *
-# import datetime
-# from platform import system as plt
+import re
+from webbrowser import open
+#from datetime import *
+from datetime import datetime
+from platform import system as plt
 
 ## Built-In Module ##
 """
@@ -12,11 +12,11 @@ müssen. Der Grund hierfür ist einen Funktionsüberfluss und entsprechende
 Performanceeinschränkungen zu verhindern. Eine Liste aller dieser Module findet sich hier:           
   https://docs.python.org/3/py-modindex.html
 """
-# def builtin_modules():
-#   if plt() == 'Windows':
-#     open('https://docs.python.org/3/py-modindex.html')
-#     print(datetime.now() \
-#       .strftime("Today is %A, %d. of %B, %Y.\nYour local time is %H:%M"))
+def builtin_modules():
+  if plt() == 'Linux':
+    open('https://docs.python.org/3/py-modindex.html')
+    print(datetime.now() \
+      .strftime("Today is %A, %d. of %B, %Y.\nYour local time is %H:%M"))
     
 ## Eigene Module ##
 """
@@ -48,15 +48,14 @@ Das Paket wird (wenn nicht virtuelle Umgebungen verwendet werden) im Directory
 #py -m pip install -> workaround
 """
 def external_modules():
-    import numpy as np
-    arr = np.array([[0,1,0,0], [0,0,1,0]])
-    print(arr)
-
+  import numpy as np
+  arr = np.array([[0,1,0,0], [0,0,1,0]])
+  print(arr)
 
     
 def main():
   # builtin_modules()
-  external_modules()
+  builtin_modules()
 
 if __name__ == '__main__':
   main()

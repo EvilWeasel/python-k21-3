@@ -1,6 +1,6 @@
 Python Projekte K21-3:
-	Niederberger: 
-	Walliser:
-	Kuppinger:
-	Henkel:
-	Rai:
+	Niederberger: 	___
+	Walliser:				unsicher
+	Kuppinger:			___
+	Henkel: 				Schach-Spiel (Console-App "erstmal :D")
+	Rai:						___
