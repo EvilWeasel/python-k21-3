@@ -1,6 +1,6 @@
 Python Projekte K21-3:
-	Niederberger: 	___
-	Walliser:				unsicher
+	Niederberger: 	Thema: Server-Web-Dings
+	Walliser:				Thema: Webscraping
 	Kuppinger:			___
 	Henkel: 				Schach-Spiel (Console-App "erstmal :D")
-	Rai:						___
+	Rai:						RPS / Number-Guessing-Game
