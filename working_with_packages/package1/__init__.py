@@ -1,0 +1,1 @@
+print("Ich bin package1 und werde in einem Modul ausgeführt!")

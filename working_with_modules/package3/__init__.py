@@ -1,0 +1,2 @@
+from .module3_1 import test_function_package3
+from .module3_2 import test_function_package3_2
